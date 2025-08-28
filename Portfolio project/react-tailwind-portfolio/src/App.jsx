@@ -9,9 +9,8 @@ import Skills from "./Components/Skills";
 
 
 function App() {
-  
-
   return (
+    <div id="portfolio-content">
       <div className="bg-slate-100 px-3 py-8">
       <div className="bg-white max-w-4xl mx-auto rounded-xl shadow-lg">
         <Header />
@@ -23,6 +22,7 @@ function App() {
         <Extracurricular />
         <Contact />
       </div>
+    </div>
     </div>
   )
 }
